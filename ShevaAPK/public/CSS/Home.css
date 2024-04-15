@@ -1,0 +1,67 @@
+@import url(BaseColor.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-color: aqua;
+    height: 100vh;
+}
+
+.navbar-master {
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: var(--basic-white-color);
+    width: 100%;
+}
+
+.navbar-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-1 ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.navbar-2 ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    padding-right: 10vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    transition: color 0.3s ease;
+    color: var(--hover-color);
+}
