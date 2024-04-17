@@ -6,8 +6,11 @@
 }
 
 .container {
-    background-color: aqua;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .navbar-master {
@@ -50,6 +53,75 @@
     width: 50%;
     justify-content: space-around;
     padding-right: 10vh;
+}
+
+.fixed-size-slider {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-modified {
+    background-color: var(--button-color);
+    color: var(--basic-white-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slidebar-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: var(--basic-black-color);
+    color: var(--basic-white-color);
+}
+
+.commentator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    gap: 20px;
+}
+
+.image-slidebar-1 {
+    width: 15%;
+}
+
+.create-account-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 12vh;
+    background-color: var(--fax-color);
+    color: var(--basic-white-color);
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+.create-account-bar p {
+    width: 40%;
+}
+
+.create-account-bar button {
+    width: 20%;
+    background-color: var(--basic-white-color);
+    color: var(--basic-black-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 ul {

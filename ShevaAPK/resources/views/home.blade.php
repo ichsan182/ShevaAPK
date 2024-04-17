@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>logo</title>
     <link rel="stylesheet" href="..\CSS\Home.css">
 </head>
+
 <body>
     <div class="container">
         <div class="navbar-master">
@@ -45,9 +47,29 @@
             </div>
         </div>
         <div class="slidebar-home">
-
+            <div class="text-button-slidebar-1 fixed-size-slider">
+                <div class="slidebar-1 commentator">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur voluptas ullam? Rerum,
+                        eveniet ea cupiditate veniam dicta ratione odio quam amet nihil soluta exercitationem?
+                        Voluptatem corporis voluptates assumenda dolore?</p>
+                    <button class="button-modified">Start Creating now</button>
+                </div>
+                <div class="image-slidebar-1">
+                    <img src="..\img\exam.jpg" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+        <div class="create-account-bar">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae iusto aperiam doloremque
+                minima!
+            </p>
+            <button>
+                Open free account
+            </button>
         </div>
     </div>
-
 </body>
+
 </html>
